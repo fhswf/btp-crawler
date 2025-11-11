@@ -22,8 +22,8 @@ class BTP_XML_Crawler:
     def __init__(self, api_key=None):
         super(BTP_XML_Crawler, self)
         if api_key is None:
-            # Public API key, valid through 5/2025
-            api_key = 'I9FKdCn.hbfefNWCY336dL6x62vfwNKpoN2RZ1gp21'
+            # Public API key, valid through 5/2026
+            api_key = 'OSOegLs.PR2lwJ1dwCeje9vTj7FPOt3hvpYKtwKkhw'
 
         self.configuration = dip_bundestag.Configuration(
             host = "https://search.dip.bundestag.de/api/v1"
