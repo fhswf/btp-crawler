@@ -51,7 +51,7 @@ class SpeechParser:
                     if line.tag == SpeechParser.tag_name:
                         skip_chairman = True
 
-                    if skip_chairman:
+                    if skip_chairman or line.tag == SpeechParser.tag_comment:
                         continue
 
                     text += "".join(line.itertext())
